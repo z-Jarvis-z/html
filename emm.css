@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to right,
+            rgb(113, 65, 168), rgba(44, 114, 251, 1));
+}
+
+.todo-app {
+    width: 98%;
+    height: 500px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 1%;
+}
+
+.todo-button {
+    width: 100px;
+    height: 52px;
+    border-radius: 0 20px 20px 0;
+    text-align: center;
+    line-height: 52px;
+    user-select: none;
+    background: linear-gradient(to right,
+            rgb(113, 65, 168), rgba(44, 114, 251, 1));
+    color: #fff;
+}
+.todo-input{
+    padding-left: 15px;
+    width: 60%;
+    border: 1px solid #dfe1e5;
+    height: 50px;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+.todo-form{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 80%;
+    height: 50px;
+    margin: 8px auto;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165,0.2) 0px 8px 20px ;
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.compeleted{
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+.del{
+    color: red;
+}
